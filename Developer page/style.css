@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.hero_section{
+    background-image: url("/image10.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text_container{
+    color: rgb(255, 253, 253);
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+.lg_text{
+    font-size: 60px;
+    font-weight: 600;
+}
+.balck_box{
+    background-color: black;
+    padding: 40px;
+}
+.balck_box h2{
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+}
+.balck_box p{
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+}
+.Work{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    gap: 20px;
+}
+.card{
+    max-width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1,1,1,0.2);
+}
+.grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_container img{
+        width: 320px;
+        height: 320px;
+}
+       
